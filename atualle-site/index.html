@@ -1,0 +1,1240 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="brand/logo-plum.png">
+<title>Atualle Planejados</title>
+<meta name="description" content="Móveis planejados de alto padrão em Santo André, São Bernardo e todo o ABC. Projeto com arquiteto, fabricação sob medida, 10 anos de garantia e financiamento. Atualle by Boavista.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Atualle Planejados · Móveis planejados no ABC">
+<meta property="og:description" content="Projeto com arquiteto, fabricação sob medida e 10 anos de garantia. Solicite seu orçamento pelo WhatsApp.">
+<meta property="og:image" content="web/og-atualle.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#24091A">
+<link rel="preload" as="image" href="web/ia-abertura.webp" imagesrcset="web/ia-abertura-800.webp 800w, web/ia-abertura-1400.webp 1400w, web/ia-abertura.webp 1672w" imagesizes="100vw" fetchpriority="high">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FurnitureStore","name":"Atualle by Boavista","description":"Móveis planejados sob medida no ABC Paulista","telephone":"+55 11 2564-6020","email":"gerencia@atualleplanejados.com.br","address":{"@type":"PostalAddress","streetAddress":"Av. Dr. Rudge Ramos, 283","addressLocality":"São Bernardo do Campo","addressRegion":"SP","postalCode":"09637-000","addressCountry":"BR"},"areaServed":["Santo André","São Bernardo do Campo","São Caetano do Sul","Diadema","Mauá"],"sameAs":["https://www.instagram.com/atuallebyboavista/","https://www.facebook.com/AtualleMoveisPlanejados/","https://www.youtube.com/@atualleplanejados"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600;700&display=swap">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Layout: brand film. Deep Atualle plum for the cinematic opening and closing bands, the brand's cream for the selling sections in between. Fixed brand look (no theme switch), every color set explicitly. */
+:root{
+  --aub:#24091A;
+  --plum:#3B1230;
+  --ink:#402830;
+  --cocoa:#5F4842;
+  --mauve:#B08080;
+  --blush:#D9BDBA;
+  --cream:#F5F0ED;
+  --sand:#EBE2DD;
+  --white:#FFFFFF;
+  --line-d:rgba(245,240,237,.16);
+  --line-l:rgba(64,40,48,.16);
+  --display:"Playfair Display","Didot","Bodoni 72",Georgia,serif;
+  --sans:"Montserrat","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7;overflow-x:hidden;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--aub)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--mauve);outline-offset:3px}
+h1,h2,h3{font-family:var(--display);font-weight:500;-webkit-font-smoothing:antialiased;margin:0;line-height:1.1;letter-spacing:-.01em;text-wrap:balance}
+h1 em,h2 em{font-style:italic;color:var(--mauve)}
+.btn .ic{width:18px;height:18px;flex:none}
+p{margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font:600 13px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--mauve)}
+.btn{display:inline-flex;align-items:center;gap:12px;font:600 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;padding:19px 30px;border-radius:0;border:1px solid var(--mauve);background:var(--mauve);color:var(--white);text-decoration:none;cursor:pointer;transition:background .35s,color .35s,border-color .35s,transform .35s cubic-bezier(.2,.8,.2,1)}
+.btn:hover{background:transparent;color:var(--mauve)}
+.btn.ghost{background:rgba(36,9,26,.25);color:var(--cream);border-color:rgba(245,240,237,.45);backdrop-filter:blur(6px)}
+.btn.ghost:hover{border-color:var(--cream);background:var(--cream);color:var(--plum)}
+.btn.dark{background:var(--plum);border-color:var(--plum)}
+.btn.dark:hover{background:transparent;color:var(--plum)}
+
+#intro{position:fixed;inset:0;z-index:100;background:var(--aub);display:grid;place-items:center;transition:opacity .9s ease .2s,visibility 0s linear 1.1s}
+#intro.done{opacity:0;visibility:hidden}
+.intro-in{display:grid;gap:34px;justify-items:center;padding-inline:16px}
+.intro-logo{width:min(420px,72vw);clip-path:inset(0 100% 0 0);animation:wipe 1.5s cubic-bezier(.7,0,.2,1) .2s forwards}
+.intro-logo img{display:block;width:100%;height:auto}
+.intro-bar{width:min(260px,60vw);height:1px;background:var(--line-d);position:relative;overflow:hidden}
+.intro-bar i{position:absolute;inset:0;background:var(--mauve);transform-origin:left;transform:scaleX(0);transition:transform .4s ease}
+.intro-pct{font:500 12px/1 var(--sans);color:var(--blush);letter-spacing:.14em;text-transform:uppercase}
+@keyframes wipe{to{clip-path:inset(0 0 0 0)}}
+
+.bars::before,.bars::after{content:"";position:fixed;left:0;right:0;height:11vh;background:var(--aub);z-index:55;transition:transform 1.6s cubic-bezier(.7,0,.2,1);pointer-events:none}
+.bars::before{top:0}
+.bars::after{bottom:0}
+.bars.open::before{transform:translateY(-100%)}
+.bars.open::after{transform:translateY(100%)}
+.grain{position:fixed;inset:-50%;z-index:54;pointer-events:none;opacity:.035;background-size:180px;animation:grain 1.2s steps(6) infinite;transition:opacity .6s}
+.grain.off{opacity:0}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-4%,3%)}40%{transform:translate(3%,-2%)}60%{transform:translate(-2%,-4%)}80%{transform:translate(4%,2%)}100%{transform:translate(0,0)}}
+
+.nav{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:50;transition:background .45s,border-color .45s;border-bottom:1px solid transparent}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:16px}
+.logo{display:block;position:relative;width:150px;text-decoration:none}
+.logo img{display:block;width:100%;height:auto;transition:opacity .45s}
+.logo img.lgt{position:absolute;inset:0}
+.logo img.drk{opacity:0}
+.nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0;font:600 13px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase}
+.nav ul a{text-decoration:none;color:#FFFFFF;text-shadow:0 1px 10px rgba(20,4,14,.45);transition:color .3s}
+.nav ul a:hover{color:var(--white)}
+.nav .btn{padding:14px 20px;font-size:12px}
+.nav.solid{background:rgba(245,240,237,.95);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line-l)}
+.nav.solid .logo img.lgt{opacity:0}
+.nav.solid .logo img.drk{opacity:1}
+.nav.solid ul a{color:var(--ink);text-shadow:none}
+.nav.solid ul a:hover{color:var(--plum)}
+@media (max-width:960px){.nav ul{display:none}.logo{width:124px}}
+.burger{display:none;width:46px;height:46px;border:1px solid rgba(255,255,255,.45);background:rgba(36,9,26,.25);border-radius:50%;cursor:pointer;position:relative;flex:none}
+.burger i{position:absolute;left:13px;right:13px;height:1.5px;background:#FFFFFF;transition:transform .35s,top .35s}
+.burger i:first-child{top:18px}.burger i:last-child{top:26px}
+.nav.solid .burger{border-color:var(--line-l);background:transparent}
+.nav.solid .burger i{background:var(--plum)}
+.nav.menu-open .burger{border-color:rgba(255,255,255,.45)}
+.nav.menu-open .burger i{background:#FFFFFF}
+.nav.menu-open .burger i:first-child{top:22px;transform:rotate(45deg)}
+.nav.menu-open .burger i:last-child{top:22px;transform:rotate(-45deg)}
+.nav.menu-open{background:transparent!important;border-color:transparent!important}
+.nav.menu-open .logo img.lgt{opacity:1!important}.nav.menu-open .logo img.drk{opacity:0!important}
+.mmenu{position:fixed;inset:0;z-index:49;background:var(--aub);display:flex;flex-direction:column;justify-content:center;gap:34px;padding:110px max(24px,env(safe-area-inset-right,0px)) calc(40px + env(safe-area-inset-bottom,0px)) max(24px,env(safe-area-inset-left,0px))}
+.mmenu[hidden],[hidden]{display:none!important}
+.mmenu ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.mmenu ul a{display:block;font:500 clamp(34px,9vw,48px)/1.2 var(--display);color:#FFFFFF;text-decoration:none;padding-block:4px}
+.mmenu .btn{justify-content:center}
+.mmenu p{color:var(--blush);font-size:14px}
+@media (max-width:960px){.burger{display:block}.navcta{display:none}}
+
+
+.film{position:relative;background:var(--aub)}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--aub)}
+.scenes{position:absolute;inset:0}
+.scene{position:absolute;inset:0;overflow:hidden;will-change:clip-path}
+.scene img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none;will-change:transform,object-position;transform-origin:50% 50%;backface-visibility:hidden}
+.scene.portrait>img:first-child{filter:blur(28px) brightness(.62) saturate(1.1)}
+.scene.portrait img.fg{inset:auto;left:auto;right:max(5vw,24px);top:50%;width:auto;height:min(82vh,1402px);max-height:none;aspect-ratio:1122/1402;object-fit:cover;filter:none;transform-origin:50% 50%;box-shadow:0 40px 90px rgba(20,4,14,.55);margin-top:calc(min(82vh,1402px) / -2)}
+@media (max-width:760px){.scene.portrait img.fg{right:50%;margin-right:calc(min(82vh,1402px) * -0.4);height:min(70vh,1402px);margin-top:calc(min(70vh,1402px) / -2 - 8vh)}}
+.leak{position:absolute;inset:0;pointer-events:none;opacity:0;mix-blend-mode:screen;background:radial-gradient(60% 80% at 85% 30%,rgba(255,206,170,.5),transparent 60%),radial-gradient(40% 60% at 10% 90%,rgba(176,128,128,.35),transparent 60%)}
+.shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(28,6,20,.94) 0%,rgba(28,6,20,.8) 30%,rgba(28,6,20,.35) 50%,rgba(28,6,20,0) 66%),linear-gradient(0deg,rgba(36,9,26,.62) 0%,rgba(36,9,26,0) 26%),linear-gradient(180deg,rgba(36,9,26,.5) 0%,rgba(36,9,26,0) 20%)}
+.tag{position:absolute;top:calc(100px + env(safe-area-inset-top,0px));right:max(16px,env(safe-area-inset-right,0px));font:600 12px/1.7 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#FFFFFF;text-shadow:0 1px 12px rgba(20,4,14,.6);text-align:right;pointer-events:none}
+.tag b{display:block;font:italic 500 18px/1.3 var(--display);letter-spacing:0;text-transform:none;color:var(--cream)}
+.hud{position:absolute;inset:auto 0 0 0;pointer-events:none;padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+.hud .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.reel{display:flex;gap:6px;align-items:flex-end;padding-bottom:8px}
+.reel i{display:block;width:44px;height:2px;background:rgba(245,240,237,.22);position:relative;overflow:hidden}
+.reel i::after{content:"";position:absolute;inset:0;background:var(--blush);transform-origin:left;transform:scaleX(var(--k,0))}
+.counter{font:600 12px/1.6 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#FFFFFF;text-shadow:0 1px 12px rgba(20,4,14,.6);text-align:right;margin-right:84px}
+.counter b{display:block;font:500 40px/1 var(--display);letter-spacing:0;color:var(--cream);text-transform:none}
+.counter b span{color:var(--blush);font-style:italic}
+
+.chapters{position:relative;margin-top:-100vh;margin-top:-100svh;z-index:2;pointer-events:none;color:#FFFFFF;text-shadow:0 2px 28px rgba(20,4,14,.75),0 1px 3px rgba(20,4,14,.6)}
+.chap{min-height:100vh;min-height:100svh;display:flex;align-items:center;padding-block:110px 150px}
+.chap .wrap{width:100%}
+.chap .card{max-width:560px;pointer-events:none;transition:opacity .6s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.chap .card a{pointer-events:auto}
+.chap .card{opacity:var(--fade,1)}
+.chap.dim .card{transform:translateY(10px)}
+.chap h1{font-size:clamp(42px,min(6vw,9.4vh),92px)}
+.chap h2{font-size:clamp(36px,min(4.8vw,8vh),72px)}
+.chap h1 em,.chap h2 em{color:var(--blush)}
+.chap .num{font:600 13px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--blush);display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.chap .num::after{content:"";width:56px;height:1px;background:var(--blush)}
+.chap .eyebrow{color:var(--blush)}
+.chap p.lead{color:#FFFFFF;font-size:19px;line-height:1.6;font-weight:500;max-width:42ch;margin-top:24px}
+.chap .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.specs{list-style:none;padding:0;margin:28px 0 0;border-top:1px solid rgba(255,255,255,.3);max-width:440px}
+.specs li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.3);font-size:16px;font-weight:500;color:#FFFFFF}
+.specs li span{font:600 13px/1.6 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--blush)}
+.scrollhint{display:flex;align-items:center;gap:12px;margin-top:44px;font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#FFFFFF}
+.scrollhint i{width:1px;height:46px;background:linear-gradient(var(--blush),transparent);animation:drip 2s ease-in-out infinite;transform-origin:top}
+@keyframes drip{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+@media (max-height:780px){.specs{display:none}.chap p.lead{margin-top:16px}.chap .ctas{margin-top:22px}.scrollhint{margin-top:26px}}
+@media (max-width:760px){
+  .shade{background:linear-gradient(0deg,rgba(36,9,26,.95) 0%,rgba(36,9,26,.72) 45%,rgba(36,9,26,.1) 75%),linear-gradient(180deg,rgba(36,9,26,.6) 0%,rgba(36,9,26,0) 20%)}
+  .chap{align-items:flex-end;padding-bottom:160px}
+  .chap p.lead{font-size:17px}
+  .counter b{font-size:30px}
+  .reel i{width:24px}
+  .tag{display:none}
+  .hud{padding-bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+}
+
+section{padding-block:120px;position:relative;z-index:3}
+@media (max-width:760px){section{padding-block:76px}}
+.head{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:end;margin-bottom:60px}
+.head h2{font-size:clamp(38px,4.8vw,70px);color:var(--plum)}
+.head p{color:var(--ink);max-width:50ch;font-weight:500;font-size:18px;line-height:1.65}
+@media (max-width:820px){.head{grid-template-columns:1fr}}
+
+.marquee{position:relative;z-index:3;background:var(--plum);overflow:hidden;padding-block:24px}
+.marquee div{display:flex;gap:56px;width:max-content;animation:slide 60s linear infinite;font:italic 500 clamp(26px,3.2vw,42px)/1 var(--display);color:var(--blush);white-space:nowrap}
+.marquee span::after{content:"";display:inline-block;width:7px;height:7px;background:var(--mauve);transform:rotate(45deg);margin-left:56px;vertical-align:middle}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+.about{background:var(--cream)}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-l)}
+.nums div{padding:36px 24px 0 0;display:grid;gap:12px;min-width:0;align-content:start}
+.nums div+div{border-left:1px solid var(--line-l);padding-left:24px}
+.nums b{font:500 clamp(56px,6vw,90px)/.9 var(--display);color:var(--plum)}
+.nums b small{font:600 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--mauve);margin-left:8px;vertical-align:.9em}
+.nums div>span{color:var(--ink);font-size:16px;font-weight:500}
+@media (max-width:820px){.nums{grid-template-columns:1fr 1fr}.nums div:nth-child(3){border-left:0;padding-left:0}.nums div{padding-bottom:30px}}
+
+.process{background:var(--sand)}
+.steps{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-l)}
+.steps li{padding:34px 30px 38px 0;border-bottom:1px solid var(--line-l);display:grid;gap:12px;align-content:start;min-width:0}
+.steps li:not(:nth-child(3n+1)){padding-left:30px;border-left:1px solid var(--line-l)}
+.steps .n{font:italic 400 34px/1 var(--display);color:var(--mauve)}
+.steps h3{font-size:26px;color:var(--plum)}
+.steps p{color:var(--cocoa);font-size:15px;font-weight:300}
+@media (max-width:860px){.steps{grid-template-columns:1fr}.steps li:not(:nth-child(3n+1)){padding-left:0;border-left:0}}
+
+.quote{background:var(--plum);color:var(--cream);overflow:hidden}
+.quote .wrap{display:grid;grid-template-columns:1fr auto;gap:60px;align-items:center}
+.quote blockquote{margin:0;font:500 clamp(34px,4.4vw,64px)/1.08 var(--display);max-width:20ch;text-wrap:balance}
+.quote blockquote em{color:var(--blush)}
+.quote p{margin-top:28px;color:var(--blush);max-width:52ch;font-weight:500;font-size:18px}
+.seal{width:min(240px,50vw);height:auto;color:var(--blush)}
+.seal .ring{transform-origin:120px 120px;animation:spin 40s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:820px){.quote .wrap{grid-template-columns:1fr}.seal{width:160px}}
+
+.work{background:var(--aub);color:var(--cream)}
+.work .head h2{color:var(--cream)}
+.work .head h2 em{color:var(--blush)}
+.work .head p{color:#EDE3DF}
+.strip-ctl{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.strip-ctl .eyebrow{color:var(--blush)}
+.strip-ctl div{display:flex;gap:10px}
+.strip-ctl button{width:52px;height:52px;border-radius:50%;border:1px solid var(--line-d);background:none;color:var(--cream);font-size:18px;cursor:pointer;transition:border-color .25s,background .25s,color .25s}
+.strip-ctl button:hover{border-color:var(--cream);background:var(--cream);color:var(--plum)}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,30%);grid-template-rows:clamp(380px,58vh,600px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:6px;cursor:grab}
+.strip::-webkit-scrollbar{display:none}
+.shot{margin:0;position:relative;height:100%;max-width:100%;overflow:hidden;background:var(--plum);scroll-snap-align:start}
+.shot.wide{grid-column:span 2}
+.shot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
+.shot:hover img{transform:scale(1.05)}
+.shot::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(36,9,26,.85) 0%,rgba(36,9,26,0) 42%);pointer-events:none}
+.shot figcaption{position:absolute;left:22px;right:22px;bottom:20px;z-index:1;font-size:13px;color:rgba(245,240,237,.82);font-weight:300}
+.shot figcaption span{font:600 10px/1 var(--sans);letter-spacing:.22em;color:var(--blush);display:block;margin-bottom:10px}
+.shot figcaption b{display:block;font:400 28px/1.05 var(--display);color:var(--cream);margin-bottom:6px}
+@media (max-width:760px){.strip{grid-auto-columns:82%;grid-template-rows:440px}.shot.wide{grid-column:span 1}}
+
+.contact{background:var(--cream)}
+.contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}
+.contact h2{font-size:clamp(42px,5vw,74px);color:var(--plum)}
+.info{display:grid;gap:26px;margin-top:44px}
+.info div{display:grid;gap:4px}
+.info span{font:600 12px/1 var(--sans);letter-spacing:.12em;color:var(--mauve);text-transform:uppercase}
+.info p{font-size:17px;color:var(--ink);font-weight:500}
+form{display:grid;gap:18px;background:var(--white);padding:40px;border:1px solid var(--line-l);min-width:0;box-shadow:0 30px 60px -30px rgba(59,18,48,.25)}
+label{display:grid;gap:8px;font:600 13px/1.2 var(--sans);letter-spacing:.02em;color:var(--ink)}
+input,select{font:400 16px/1.3 var(--sans);color:var(--ink);background:var(--cream);border:1px solid var(--line-l);padding:15px 16px;border-radius:0;width:100%}
+input:focus,select:focus{border-color:var(--mauve);outline:none;background:var(--white)}
+input.err{border-color:#B4434B}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+form .btn{justify-content:center;margin-top:6px}
+.ftitle{font:500 22px/1.25 var(--display);color:var(--plum)}
+.lgpd{font-size:14px;color:var(--cocoa)}
+.info a{color:var(--plum);text-underline-offset:3px}
+.ok{background:var(--sand);border-left:3px solid var(--mauve);padding:16px;font-size:14px;color:var(--ink)}
+@media (max-width:860px){.contact .grid{grid-template-columns:1fr;gap:44px}.row2{grid-template-columns:1fr}form{padding:24px}}
+
+footer{position:relative;z-index:3;background:var(--aub);color:#E6DCD8;padding-block:64px calc(48px + env(safe-area-inset-bottom,0px))}
+footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;font-size:16px;font-weight:400;line-height:1.7}
+footer .flogo{grid-column:1/-1;width:min(460px,80%);height:auto;margin-bottom:12px}
+footer b{display:block;font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--blush);margin-bottom:12px}
+footer a{color:#FFFFFF;text-underline-offset:3px}
+@media (max-width:760px){footer .wrap{grid-template-columns:1fr}}
+.demo-note{font:500 12px/1.6 var(--sans);letter-spacing:.02em;color:#B8A3AB;grid-column:1/-1;border-top:1px solid var(--line-d);padding-top:20px}
+
+.wa{position:fixed;right:calc(22px + env(safe-area-inset-right,0px));bottom:calc(22px + env(safe-area-inset-bottom,0px));z-index:52;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .3s}
+.wa:hover{transform:scale(1.07)}
+.wa svg{width:30px;height:30px}
+
+.rv{transform:translateY(26px);transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}
+.rv.in{transform:none}
+@media (prefers-reduced-motion:reduce){
+  .intro-logo{animation:none;clip-path:none}
+  .bars::before,.bars::after{display:none}
+  .grain,.marquee div,.scrollhint i,.seal .ring{animation:none}
+  .rv{transform:none;transition:none}
+}
+
+.quick{background:var(--cream);padding-block:40px;border-bottom:1px solid var(--line-l)}
+.quick-in{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.quick p{max-width:62ch;color:var(--ink);font-size:18px;font-weight:500}
+.quick p b{font:500 24px/1.2 var(--display);color:var(--plum);display:block;margin-bottom:4px}
+/* ===== motion blocks ===== */
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.wi{display:inline-block;transition:transform 1.15s cubic-bezier(.16,.84,.24,1)}
+.split-pending .wi{transform:translateY(112%)}
+
+.cine-wrap{position:relative;height:180vh;margin-top:72px}
+.cine{position:sticky;top:0;height:100vh;height:100svh;margin:0;overflow:hidden;clip-path:inset(var(--ci,16%) var(--cx,22%) var(--ci,16%) var(--cx,22%) round var(--cr,28px));background:var(--plum)}
+.cine img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(var(--cs,1.3));will-change:transform}
+.cine::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(36,9,26,.75) 0%,rgba(36,9,26,0) 45%);opacity:var(--co,0)}
+.cine figcaption{position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:16px;bottom:calc(56px + env(safe-area-inset-bottom,0px));z-index:1;max-width:1240px;margin:0 auto;padding-left:max(0px,calc((100vw - 1240px)/2));color:#FFFFFF;opacity:var(--co,0);transform:translateY(calc((1 - var(--co,0)) * 30px))}
+.cine figcaption span{font:600 11px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--blush);display:block;margin-bottom:16px}
+.cine figcaption b{display:block;font:500 clamp(34px,4.6vw,66px)/1.04 var(--display);max-width:16ch;text-shadow:0 2px 24px rgba(20,4,14,.5)}
+
+.process{background:var(--sand);padding-block:120px}
+.pgrid{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:start}
+.pside{position:sticky;top:130px}
+.pside h2{font-size:clamp(38px,4.6vw,66px);color:var(--plum);margin-top:18px}
+.pnote{margin-top:22px;color:var(--ink);font-weight:500;font-size:18px;max-width:36ch}
+.pbig{margin-top:40px;display:flex;align-items:baseline;gap:12px;color:var(--plum)}
+.pbig span{font:500 clamp(90px,11vw,160px)/.8 var(--display);display:inline-block;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.pbig small{font:600 12px/1 var(--sans);letter-spacing:.22em;color:var(--mauve)}
+.psteps{list-style:none;margin:0;padding:0 0 0 46px;position:relative}
+.psteps::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:#D6C8C2}
+.psteps::after{content:"";position:absolute;left:0;top:0;width:2px;height:calc(var(--pp,0) * 100%);background:var(--mauve)}
+.psteps li{padding:46px 0;border-bottom:1px solid var(--line-l);display:grid;gap:12px;position:relative;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.psteps li::before{content:"";position:absolute;left:-52px;top:56px;width:14px;height:14px;border-radius:50%;background:var(--sand);border:2px solid #CDBCB5;transition:background .4s,border-color .4s,transform .4s}
+.psteps .n{font:italic 500 20px/1 var(--display);color:#7E6872;transition:color .4s}
+.psteps h3{font-size:clamp(26px,2.6vw,36px);color:#6E5862;transition:color .4s}
+.psteps p{color:#4E3F45;font-weight:500;font-size:17px;max-width:44ch;transition:color .4s}
+.psteps li.on{transform:translateX(10px)}
+.psteps li.on::before{background:var(--mauve);border-color:var(--mauve);transform:scale(1.25)}
+.psteps li.on .n{color:var(--mauve)}
+.psteps li.on h3{color:var(--plum)}
+.psteps li.on p{color:var(--ink)}
+@media (max-width:860px){.pgrid{grid-template-columns:1fr;gap:40px}.pside{position:static}.pbig{display:none}}
+
+#fillq .fw{color:#6E3C5C;transition:color .25s}
+#fillq .fw.lit{color:#FFFFFF}
+#fillq em .fw.lit,#fillq .fw.lit em{color:var(--blush)}
+
+.work{padding-bottom:0}
+.hwrap{position:relative}
+.hsticky{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;flex-direction:column;justify-content:center;gap:34px}
+.htrack{display:flex;gap:26px;padding-left:max(16px,calc((100vw - 1240px)/2 + 16px));padding-right:16px;will-change:transform;align-items:center}
+.htrack .shot{flex:0 0 clamp(300px,30vw,460px);height:min(66vh,620px);margin:0;position:relative;overflow:hidden;background:var(--plum)}
+.htrack .shot.wide{flex-basis:clamp(520px,58vw,920px)}
+.htrack .shot .ph{position:absolute;inset:0 -12%;}
+.htrack .shot img{width:100%;height:100%;object-fit:cover;display:block;transform:translateX(var(--px,0));will-change:transform}
+.htrack .shot::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(28,6,20,.92) 0%,rgba(28,6,20,0) 50%);pointer-events:none}
+.htrack .shot figcaption{position:absolute;left:24px;right:24px;bottom:22px;z-index:1;font-size:15px;font-weight:500;color:#F2E9E6}
+.htrack .shot figcaption span{font:600 12px/1 var(--sans);letter-spacing:.12em;color:var(--blush);display:block;margin-bottom:10px}
+.htrack .shot figcaption b{display:block;font:500 30px/1.05 var(--display);color:#FFFFFF;margin-bottom:6px}
+.hend{flex:0 0 clamp(300px,32vw,460px);display:grid;gap:22px;align-content:center;padding-right:40px}
+.hend h3{font-size:clamp(36px,4vw,58px);color:#FFFFFF}
+.hend h3 em{color:var(--blush)}
+.hend .eyebrow{color:var(--blush)}
+.hend .btn{justify-self:start}
+.hmeta{display:flex;align-items:center;gap:24px;width:100%}
+.hmeta .eyebrow{color:var(--blush);white-space:nowrap}
+.hbar{flex:1;height:2px;background:rgba(245,240,237,.18);position:relative}
+.hbar i{position:absolute;left:0;top:0;bottom:0;width:100%;background:var(--blush);transform-origin:left;transform:scaleX(var(--hp,0))}
+.hcount{font:600 12px/1 var(--sans);letter-spacing:.12em;color:#E6DCD8}
+.hcount b{font:500 26px/1 var(--display);color:#FFFFFF;letter-spacing:0;margin-right:4px}
+@media (max-width:760px){
+  .hwrap{height:auto!important}
+  .hsticky{position:static;height:auto;padding-block:10px 70px}
+  .htrack{overflow-x:auto;scroll-snap-type:x mandatory;transform:none!important;padding-right:16px;scrollbar-width:none}
+  .htrack .shot{flex-basis:82%;height:460px;scroll-snap-align:start}
+  .htrack .shot.wide{flex-basis:82%}
+  .hend{flex-basis:82%}
+}
+
+.cta-band{position:relative;height:92vh;min-height:560px;overflow:hidden;display:flex;align-items:center;padding:0;background:var(--aub)}
+.cta-img{position:absolute;inset:0;overflow:hidden}
+.cta-img img{position:absolute;left:0;top:-10%;width:100%;height:120%;object-fit:cover;transform:translateY(var(--cy,0)) scale(var(--cz,1.15));will-change:transform}
+.cta-band::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(36,9,26,.92) 0%,rgba(36,9,26,.6) 45%,rgba(36,9,26,.15) 100%)}
+.cta-in{position:relative;z-index:1;width:100%;display:grid;gap:26px;justify-items:start}
+.cta-in h2{font-size:clamp(44px,6vw,92px);color:#FFFFFF;max-width:14ch;text-shadow:0 2px 30px rgba(20,4,14,.5)}
+.cta-in h2 em{color:var(--blush)}
+.cta-in .eyebrow{color:var(--blush)}
+
+@media (prefers-reduced-motion:reduce){
+  .wi{transition:none}.split-pending .wi{transform:none}
+  .cine{clip-path:none}.cine img{transform:none}
+}
+
+/* ===== cinematic system ===== */
+/* hero title, revealed line by line after the intro (only when JS runs) */
+.lines .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.lines .ln>span{display:inline-block}
+.js .lines .ln>span{transform:translateY(108%);transition:transform 1s cubic-bezier(.16,.84,.24,1)}
+.js .lines .ln:nth-child(2)>span{transition-delay:.12s}
+.js body.ready .lines .ln>span,.js .ready .lines .ln>span{transform:none}
+.js .chap[data-i="0"] .lead,.js .chap[data-i="0"] .ctas,.js .chap[data-i="0"] .eyebrow,.js .chap[data-i="0"] .scrollhint{opacity:0;transform:translateY(14px);transition:opacity .9s ease .35s,transform .9s cubic-bezier(.2,.8,.2,1) .35s}
+.js .ready .chap[data-i="0"] .lead,.js .ready .chap[data-i="0"] .ctas,.js .ready .chap[data-i="0"] .eyebrow,.js .ready .chap[data-i="0"] .scrollhint{opacity:1;transform:none}
+
+/* technical dimension lines drawn over the opening scene */
+.cotas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0;transition:opacity .8s ease}
+.cotas .cl path{fill:none;stroke:#F3D9CF;stroke-width:1.6;stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 6px rgba(28,6,20,.6))}
+.cotas .ct text{fill:#FFFFFF;font:600 20px var(--sans);letter-spacing:.06em;opacity:0;transition:opacity .6s ease 1.2s;paint-order:stroke;stroke:rgba(28,6,20,.55);stroke-width:4px}
+.cotas.draw{opacity:1}
+.cotas.draw .cl path{stroke-dashoffset:0;transition:stroke-dashoffset 1.6s cubic-bezier(.65,0,.35,1)}
+.cotas.draw .cl path:nth-child(2){transition-delay:.25s}
+.cotas.draw .cl path:nth-child(3){transition-delay:.5s}
+.cotas.draw .ct text{opacity:1}
+.cotas.gone{opacity:0}
+@media (max-width:760px){.cotas{display:none}}
+
+/* sliding-door seam: a thin line of warm LED light */
+.door-edge{position:absolute;top:0;bottom:0;left:0;width:2px;margin-left:-1px;opacity:0;pointer-events:none;background:linear-gradient(180deg,rgba(255,214,170,0),#FFE2BF 20%,#FFD39C 80%,rgba(255,214,170,0));box-shadow:0 0 18px 4px rgba(255,200,140,.55),0 0 60px 10px rgba(255,190,130,.25)}
+
+/* tag never sits on the framed portrait */
+.stage.is-portrait .tag{right:calc(max(5vw,24px) + min(82vh,1402px) * .8 + 28px)}
+.tag{transition:right .5s cubic-bezier(.2,.8,.2,1)}
+
+/* scroll progress + active menu item */
+.progress{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;height:2px;z-index:53;pointer-events:none}
+.progress i{display:block;height:100%;background:var(--mauve);transform-origin:left;transform:scaleX(0)}
+.nav ul a{position:relative;padding-block:6px}
+.nav ul a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.nav ul a.on::after,.nav ul a:hover::after{transform:scaleX(1)}
+.mmenu ul a.on{color:var(--blush)}
+
+/* about: text + parallax photo with an opening crop */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;margin-bottom:72px}
+.about-txt{display:grid;gap:22px;align-content:center}
+.about-txt h2{font-size:clamp(38px,4.4vw,64px);color:var(--plum)}
+.about-txt p:last-child{font-size:18px;font-weight:500;line-height:1.65;max-width:46ch}
+.about-fig{margin:0;position:relative;aspect-ratio:5/6;max-width:100%;overflow:hidden;background:var(--sand);clip-path:inset(var(--rv,0%) var(--rv,0%) var(--rv,0%) var(--rv,0%))}
+.about-fig img{position:absolute;left:0;top:-7%;width:100%;height:114%;object-fit:cover;object-position:70% 55%;transform:translate3d(0,var(--py,0px),0) scale(var(--ps,1));will-change:transform}
+.about-fig figcaption{position:absolute;left:20px;bottom:18px;font:600 13px/1 var(--sans);letter-spacing:.06em;color:#FFFFFF;text-shadow:0 1px 10px rgba(20,4,14,.7)}
+@media (max-width:820px){.about-grid{grid-template-columns:1fr;gap:40px;margin-bottom:56px}.about-fig{aspect-ratio:4/5}}
+
+/* details: each frame opens from a close-up to the whole room */
+.details{background:var(--cream);padding-block:120px}
+.det-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 28px}
+.det{margin:0;display:grid;gap:18px;align-content:start}
+.det:nth-child(even){margin-top:120px}
+.det-img{position:relative;aspect-ratio:4/5;max-width:100%;overflow:hidden;background:var(--sand)}
+.det-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(var(--dz,1));will-change:transform}
+.det figcaption{display:grid;gap:6px;max-width:44ch}
+.det figcaption b{font:500 30px/1.15 var(--display);color:var(--plum)}
+.det figcaption span{font-size:17px;font-weight:500;color:var(--ink)}
+.det figcaption small{font:600 12px/1 var(--sans);letter-spacing:.08em;color:var(--mauve);margin-top:4px}
+@media (max-width:760px){.det-grid{grid-template-columns:1fr;gap:56px}.det:nth-child(even){margin-top:0}.details{padding-block:80px}}
+
+/* process: visual that changes with the steps */
+.pvis{position:relative;margin-top:30px;aspect-ratio:16/10;max-width:440px;overflow:hidden;background:var(--cream);box-shadow:0 24px 50px -28px rgba(59,18,48,.45)}
+.pvis .pv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.04);transition:opacity .7s ease,transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.pvis img.pv:nth-of-type(1){object-position:35% 40%}
+.pvis .pv.on{opacity:1;transform:none}
+.pvcap{position:absolute;left:14px;bottom:12px;background:var(--plum);color:#FFFFFF;font:600 12px/1 var(--sans);letter-spacing:.06em;padding:8px 12px}
+.pbig{margin-top:28px}
+.pbig span{font-size:clamp(64px,7vw,110px)!important}
+@media (max-height:760px){.pvis{aspect-ratio:16/8;max-width:400px}.pbig{display:none}}
+@media (max-width:860px){.pvis{display:none}}
+
+/* gallery: centre card comes forward */
+.htrack .shot{transform:scale(var(--gs,1));transition:none;will-change:transform}
+.htrack .shot figcaption{transform:translateY(var(--gy,0px));opacity:var(--go,1)}
+
+/* contact on a dark, slow-moving backdrop */
+.contact{background:var(--aub);position:relative;overflow:hidden}
+.contact-bg{position:absolute;inset:-8% 0;pointer-events:none}
+.contact-bg img{width:100%;height:100%;object-fit:cover;opacity:.26;transform:translate3d(0,var(--cy,0px),0);will-change:transform}
+.contact-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,6,20,.92) 0%,rgba(28,6,20,.55) 60%,rgba(28,6,20,.75) 100%)}
+.contact .wrap{position:relative;z-index:1}
+.contact h2{color:#FFFFFF!important}
+.contact h2 em{color:var(--blush)}
+.contact .eyebrow,.contact .info span{color:var(--blush)}
+.contact .info p{color:#EDE3DF}
+.contact .info a{color:#FFFFFF}
+
+@media (prefers-reduced-motion:reduce){
+  .js .lines .ln>span{transform:none;transition:none}
+  .js .chap[data-i="0"] .lead,.js .chap[data-i="0"] .ctas,.js .chap[data-i="0"] .eyebrow,.js .chap[data-i="0"] .scrollhint{opacity:1;transform:none;transition:none}
+  .cotas,.door-edge{display:none}
+  .about-fig{clip-path:none}.about-fig img,.det-img img,.contact-bg img{transform:none!important}
+  .pvis .pv{transition:none}
+}
+
+/* team / owner */
+.team{background:var(--cream);padding-block:120px}
+.team-grid{display:grid;grid-template-columns:minmax(0,440px) 1fr;gap:80px;align-items:center}
+.team-fig{margin:0;position:relative;aspect-ratio:4/5;max-width:100%;overflow:hidden;background:var(--sand);clip-path:inset(var(--tr,0%) var(--tr,0%) var(--tr,0%) var(--tr,0%));box-shadow:0 40px 70px -40px rgba(59,18,48,.5)}
+.team-fig img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:translate3d(0,var(--ty,0px),0) scale(1.04);will-change:transform}
+.team-txt{display:grid;gap:22px;max-width:52ch}
+.team-txt h2{font-size:clamp(36px,4.2vw,60px);color:var(--plum)}
+.team-txt p{font-size:18px;font-weight:500;line-height:1.65;color:var(--ink)}
+.team-sign{font:italic 500 20px/1.3 var(--display)!important;color:var(--mauve)!important;border-top:1px solid var(--line-l);padding-top:18px}
+.team-txt .btn{justify-self:start}
+@media (max-width:860px){.team-grid{grid-template-columns:1fr;gap:44px}.team-fig{max-width:420px}.team{padding-block:80px}}
+@media (prefers-reduced-motion:reduce){.team-fig{clip-path:none}.team-fig img{transform:none}}
+.team-ill{background:#EFE6E1}
+.team-ill svg{position:absolute;inset:0;width:100%;height:100%;display:block;transform:translate3d(0,var(--ty,0px),0) scale(1.04)}
+.team-ill .il-led{filter:drop-shadow(0 0 5px rgba(242,185,119,.8))}
+@media (prefers-reduced-motion:reduce){.team-ill svg{transform:none}}
+.team-grid.solo{grid-template-columns:1fr;justify-items:start}
+.team-grid.solo .team-txt{max-width:60ch;border-left:2px solid var(--mauve);padding-left:40px}
+@media (max-width:860px){.team-grid.solo .team-txt{padding-left:22px}}
+
+/* details: rounded frames with a golden LED line running around */
+.det-img{border-radius:28px;isolation:isolate;background:rgba(201,162,92,.45);box-shadow:0 30px 60px -36px rgba(59,18,48,.45)}
+.det-img::before{content:"";position:absolute;left:50%;top:50%;width:180%;height:180%;margin:-90% 0 0 -90%;z-index:0;pointer-events:none;
+  background:conic-gradient(from 0deg,transparent 0deg,transparent 240deg,rgba(201,162,92,.6) 280deg,#E9C27A 315deg,#FFF4D6 345deg,transparent 360deg);
+  animation:ledspin 6s linear infinite}
+.det-in{position:absolute;inset:3px;border-radius:25px;overflow:hidden;z-index:1;background:var(--sand)}
+.det:nth-child(2) .det-img::before{animation-delay:-1.5s}
+.det:nth-child(3) .det-img::before{animation-delay:-3s}
+.det:nth-child(4) .det-img::before{animation-delay:-4.5s}
+.det:nth-child(5) .det-img::before{animation-delay:-2.2s}
+.det:nth-child(6) .det-img::before{animation-delay:-3.8s}
+@keyframes ledspin{to{transform:rotate(360deg)}}
+@media (max-width:760px){.det-img{border-radius:20px}.det-in{border-radius:17px}}
+@media (prefers-reduced-motion:reduce){.det-img::before{animation:none}}
+
+/* about: same rounded frame + golden LED */
+.about-fig{border-radius:28px;isolation:isolate;background:rgba(201,162,92,.45)!important;box-shadow:0 34px 70px -40px rgba(59,18,48,.5);clip-path:inset(var(--rv,0%) round 28px)!important}
+.about-fig::before{content:"";position:absolute;left:50%;top:50%;width:180%;height:180%;margin:-90% 0 0 -90%;z-index:0;pointer-events:none;
+  background:conic-gradient(from 0deg,transparent 0deg,transparent 240deg,rgba(201,162,92,.6) 280deg,#E9C27A 315deg,#FFF4D6 345deg,transparent 360deg);
+  animation:ledspin 7s linear infinite}
+.about-fig .ring-in{position:absolute;inset:3px;border-radius:25px;overflow:hidden;z-index:1;background:var(--sand)}
+.about-fig figcaption{z-index:2}
+@media (max-width:820px){.about-fig{border-radius:20px;clip-path:inset(var(--rv,0%) round 20px)!important}.about-fig .ring-in{border-radius:17px}}
+@media (prefers-reduced-motion:reduce){.about-fig::before{animation:none}.about-fig{clip-path:none!important}}
+
+/* process: interactive stepper */
+.process{background:var(--sand);padding-block:120px}
+.ps-head{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:end;margin-bottom:56px}
+.ps-head h2{font-size:clamp(38px,4.6vw,66px);color:var(--plum);margin-top:16px}
+.ps-head .pnote{margin:0;max-width:44ch}
+.ps-track{position:relative;display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.ps-line{position:absolute;left:calc(100%/12);right:calc(100%/12);top:27px;height:2px;background:#D6C8C2;pointer-events:none}
+.ps-line i{position:absolute;inset:0;background:linear-gradient(90deg,#B08080,#C9A25C);transform-origin:left;transform:scaleX(var(--pf,0));transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.ps-tab{position:relative;display:grid;justify-items:center;gap:14px;padding:0 6px 18px;background:none;border:0;cursor:pointer;color:var(--ink);font:inherit;min-height:44px}
+.ps-dot{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--sand);border:1.5px solid #CDBCB5;font:italic 500 20px/1 var(--display);color:#7E6872;position:relative;z-index:1;transition:background .4s,border-color .4s,color .4s,transform .4s cubic-bezier(.2,.8,.2,1),box-shadow .4s}
+.ps-lbl{font:600 13px/1.3 var(--sans);letter-spacing:.04em;color:#6E5862;text-align:center;transition:color .3s}
+.ps-tab:hover .ps-dot{border-color:var(--mauve);color:var(--plum)}
+.ps-tab.done .ps-dot{background:#EADFD7;border-color:var(--mauve);color:var(--plum)}
+.ps-tab.on .ps-dot{background:var(--plum);border-color:var(--plum);color:#FFFFFF;transform:scale(1.12);box-shadow:0 0 0 6px rgba(176,128,128,.18),0 12px 24px -10px rgba(59,18,48,.5)}
+.ps-tab.on .ps-lbl{color:var(--plum)}
+.ps-timer{position:absolute;left:22%;right:22%;bottom:0;height:2px;background:rgba(176,128,128,.2);overflow:hidden;opacity:0}
+.ps-timer::after{content:"";position:absolute;inset:0;background:var(--mauve);transform-origin:left;transform:scaleX(0)}
+.ps.auto .ps-tab.on .ps-timer{opacity:1}
+.ps.auto .ps-tab.on .ps-timer::after{animation:pstimer var(--dur,6s) linear forwards}
+.ps.paused .ps-tab.on .ps-timer::after{animation-play-state:paused}
+@keyframes pstimer{to{transform:scaleX(1)}}
+.ps-tab:focus-visible{outline:none}
+.ps-tab:focus-visible .ps-dot{outline:2px solid var(--mauve);outline-offset:4px}
+.ps-stage{position:relative;margin-top:40px;background:var(--cream);border-radius:28px;padding:56px 64px;box-shadow:0 40px 80px -50px rgba(59,18,48,.45);overflow:hidden;min-height:280px}
+.ps-panel{display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center}
+.ps-panel.on{animation:psin .6s cubic-bezier(.2,.8,.2,1)}
+@keyframes psin{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.ps-num{font:italic 500 clamp(110px,13vw,190px)/.8 var(--display);color:transparent;-webkit-text-stroke:1.5px var(--mauve);letter-spacing:-.03em}
+.ps-body{display:grid;gap:14px;max-width:52ch}
+.ps-of{font:600 13px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--mauve)}
+.ps-body h3{font-size:clamp(32px,3.4vw,48px);color:var(--plum)}
+.ps-body p:last-child{font-size:19px;font-weight:500;line-height:1.6;color:var(--ink)}
+.ps-nav{display:flex;align-items:center;gap:12px;margin-top:40px;padding-top:28px;border-top:1px solid var(--line-l);flex-wrap:wrap}
+.ps-arrow{width:52px;height:52px;border-radius:50%;border:1px solid var(--line-l);background:transparent;color:var(--plum);font-size:20px;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.ps-arrow:hover{background:var(--plum);color:#FFFFFF;border-color:var(--plum)}
+.ps-arrow:disabled{opacity:.35;cursor:default;background:transparent;color:var(--plum)}
+.ps-nav .btn{margin-left:auto}
+@media (max-width:860px){
+  .ps-head{grid-template-columns:1fr;gap:16px;margin-bottom:36px}
+  .ps-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:4px;padding-bottom:4px;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+  .ps-track::-webkit-scrollbar{display:none}
+  .ps-tab{flex:0 0 96px;scroll-snap-align:center}
+  .ps-line{left:64px;right:64px;width:calc(96px * 5 + 20px)}
+  .ps-dot{width:48px;height:48px;font-size:18px}
+  .ps-stage{padding:32px 24px;border-radius:20px}
+  .ps-panel{grid-template-columns:1fr;gap:12px}
+  .ps-num{font-size:96px}
+  .ps-nav .btn{margin-left:0;width:100%;justify-content:center}
+  .process{padding-block:80px}
+}
+@media (prefers-reduced-motion:reduce){.ps-panel.on{animation:none}.ps-line i,.ps-dot{transition:none}}
+
+/* gallery: rounded frames, golden LED, coverflow + 3D hover */
+.htrack{perspective:1400px}
+.htrack .shot{border-radius:28px;isolation:isolate;background:rgba(201,162,92,.4);overflow:hidden;
+  transform:perspective(1300px) rotateY(calc(var(--ry,0deg) + var(--hy,0deg))) rotateX(var(--hx,0deg)) scale(var(--gs,1));
+  box-shadow:0 40px 80px -40px rgba(0,0,0,.7);transition:box-shadow .4s}
+.htrack .shot::before{content:"";position:absolute;left:50%;top:50%;width:200%;height:200%;margin:-100% 0 0 -100%;z-index:0;pointer-events:none;
+  background:conic-gradient(from 0deg,transparent 0deg,transparent 240deg,rgba(201,162,92,.6) 280deg,#E9C27A 315deg,#FFF4D6 345deg,transparent 360deg);
+  animation:ledspin 7s linear infinite}
+.htrack .shot:nth-child(2n)::before{animation-delay:-2.3s}
+.htrack .shot:nth-child(3n)::before{animation-delay:-4.6s}
+.htrack .shot .ph{inset:3px;border-radius:25px;overflow:hidden;z-index:1;background:var(--plum)}
+.htrack .shot .ph img{position:absolute;top:0;left:-12%;width:124%;height:100%;transform:translateX(var(--px,0)) scale(var(--iz,1.06));transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.htrack .shot .ph::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:var(--gl,0);transition:opacity .4s;
+  background:radial-gradient(420px circle at var(--mx,50%) var(--my,30%),rgba(255,236,200,.38),transparent 60%)}
+.htrack .shot::after{inset:3px;border-radius:25px;z-index:2}
+.htrack .shot figcaption{z-index:3}
+.htrack .shot.hov{--gl:1;--iz:1.12;box-shadow:0 60px 100px -40px rgba(0,0,0,.85)}
+@media (max-width:760px){.htrack .shot{border-radius:20px;transform:none}.htrack .shot .ph,.htrack .shot::after{border-radius:17px}}
+@media (prefers-reduced-motion:reduce){.htrack .shot{transform:none}.htrack .shot::before{animation:none}.htrack .shot .ph img{transition:none}}
+</style>
+</head>
+<body>
+<div id="intro" aria-hidden="true">
+  <div class="intro-in">
+    <div class="intro-logo"><img src="brand/logo-light.png" alt=""></div>
+    <div class="intro-bar"><i id="ibar"></i></div>
+    <div class="intro-pct" id="ipct">Preparando os ambientes</div>
+  </div>
+</div>
+<div class="bars" id="bars"></div>
+<div class="progress" aria-hidden="true"><i id="progbar"></i></div>
+<div class="grain" id="grain"></div>
+
+<nav class="nav" id="nav" aria-label="Principal">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="Atualle Planejados by Boavista, início"><img class="lgt" src="brand/logo-light.png" alt=""><img class="drk" src="brand/logo-plum.png" alt=""></a>
+    <ul>
+      <li><a href="#cozinha">Cozinhas</a></li>
+      <li><a href="#banheiro">Banheiros</a></li>
+      <li><a href="#dormitorio">Dormitórios</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#processo">Como funciona</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a class="btn navcta" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg><span class="lbl-l">Solicitar orçamento</span></a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mmenu"><i></i><i></i></button>
+  </div>
+</nav>
+<div class="mmenu" id="mmenu" hidden>
+  <ul>
+    <li><a href="#cozinha">Cozinhas</a></li>
+    <li><a href="#banheiro">Banheiros</a></li>
+      <li><a href="#dormitorio">Dormitórios</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#processo">Como funciona</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Solicitar orçamento pelo WhatsApp</a>
+  <p>Av. Dr. Rudge Ramos, 283 · São Bernardo do Campo<br>(11) 96420-7315</p>
+</div>
+
+<div class="film" id="topo">
+  <div class="stage" id="stage">
+    <div class="scenes">
+      <div class="scene" data-name="Cozinha e jantar integrados" data-kind="Ambiente ilustrativo" data-from="42,50,1.05" data-to="58,50,1.0"><img src="web/ia-abertura.webp" srcset="web/ia-abertura-800.webp 800w, web/ia-abertura-1400.webp 1400w, web/ia-abertura.webp 1672w" sizes="100vw" width="1672" height="941" alt="Cozinha integrada à sala de jantar com painel ripado em madeira, ilha em pedra e pendentes dourados" fetchpriority="high"></div>
+      <div class="scene portrait" data-name="Cozinha com ilha" data-kind="Ambiente ilustrativo" data-from="50,50,1.12" data-to="50,50,1.02"><img src="web/ia-cozinha-bg.webp" alt=""><img class="fg" src="web/ia-cozinha.webp" srcset="web/ia-cozinha-800.webp 800w, web/ia-cozinha.webp 1122w" sizes="(max-width:760px) 80vw, 66vh" width="1122" height="1402" decoding="async" alt="Cozinha planejada em madeira escura com torre quente, ilha em pedra com cascata e banquetas de madeira"></div>
+      <div class="scene" data-name="Banheiro" data-kind="Ambiente ilustrativo" data-from="36,50,1.05" data-to="64,50,1.0"><img src="web/ia-banheiro.webp" srcset="web/ia-banheiro-800.webp 800w, web/ia-banheiro-1400.webp 1400w, web/ia-banheiro.webp 1672w" sizes="100vw" width="1672" height="941" decoding="async" alt="Banheiro com bancada em mármore, cuba esculpida, metais dourados, espelho com LED e gabinete ripado em madeira"></div>
+      <div class="scene" data-name="Dormitório" data-kind="Ambiente ilustrativo" data-from="46,50,1.05" data-to="58,50,1.0"><img src="web/ia-quarto.webp" srcset="web/ia-quarto-800.webp 800w, web/ia-quarto-1400.webp 1400w, web/ia-quarto.webp 1672w" sizes="100vw" width="1672" height="941" decoding="async" alt="Dormitório com painel ripado em madeira, cabeceira estofada iluminada, criado suspenso e closet com portas de vidro"></div>
+      <div class="scene" data-name="Sala de estar" data-kind="Ambiente ilustrativo" data-from="38,50,1.05" data-to="62,50,1.0"><img src="web/ia-sala.webp" srcset="web/ia-sala-800.webp 800w, web/ia-sala-1400.webp 1400w, web/ia-sala.webp 1672w" sizes="100vw" width="1672" height="941" decoding="async" alt="Sala de estar com painel de TV em pedra, rack suspenso com LED, estante iluminada e ripado em madeira"></div>
+      <div class="scene" data-name="Closet" data-kind="Ambiente ilustrativo" data-from="50,50,1.06" data-to="50,50,1.0"><img src="web/ia-closet.webp" srcset="web/ia-closet-800.webp 800w, web/ia-closet-1400.webp 1400w, web/ia-closet.webp 1672w" sizes="100vw" width="1672" height="941" decoding="async" alt="Closet planejado com portas de vidro fumê, prateleiras iluminadas, ilha de gavetas com tampo em pedra e penteadeira"></div>
+    </div>
+    <div class="shade"></div>
+    <div class="door-edge" id="edge" aria-hidden="true"></div>
+    <svg class="cotas" id="cotas" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g class="cl">
+        <path pathLength="1" d="M660 236H1330M660 222V250M1330 222V250"/>
+        <path pathLength="1" d="M1372 262V700M1358 262H1386M1358 700H1386"/>
+        <path pathLength="1" d="M1004 566V806M990 566H1018M990 806H1018"/>
+      </g>
+      <g class="ct">
+        <text x="995" y="222" text-anchor="middle">3.240 mm</text>
+        <text x="1396" y="486">2.700</text>
+        <text x="1028" y="692">900</text>
+      </g>
+    </svg>
+    <div class="tag"><span id="skind">Ambiente ilustrativo</span><b id="scap">Cozinha e jantar integrados</b></div>
+    <div class="hud">
+      <div class="wrap">
+        <div class="reel" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="counter"><b><span id="cnum">01</span> / 06</b><span id="cname">Início</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chapters">
+    <div class="chap" data-i="0">
+      <div class="wrap"><div class="card">
+        <p class="eyebrow" style="margin-bottom:24px">Móveis planejados · Santo André, São Bernardo e ABC</p>
+        <h1 class="lines"><span class="ln"><span>Cada milímetro,</span></span> <span class="ln"><span><em>desenhado</em> para você.</span></span></h1>
+        <p class="lead">Há 28 anos a Atualle transforma plantas em lares. Projeto com arquiteto, fabricação sob medida e 10 anos de garantia.</p>
+        <div class="ctas">
+          <a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Solicitar orçamento pelo WhatsApp</a>
+          <a class="btn ghost" href="#projetos">Conhecer projetos</a>
+        </div>
+        <div class="scrollhint"><i></i>Role para ver os ambientes</div>
+      </div></div>
+    </div>
+    <div class="chap" data-i="1" id="cozinha">
+      <div class="wrap"><div class="card">
+        <p class="num">Cozinhas</p>
+        <h2>A cozinha que recebe bem.</h2>
+        <p class="lead">Torre quente com fornos embutidos, ilha com cooktop e bancada em pedra com cascata. Cada módulo pensado para o jeito que você cozinha e recebe.</p>
+        <ul class="specs"><li><span>Destaque</span>Torre quente e LED</li><li><span>Bancada</span>Pedra com cascata</li></ul>
+        <div class="ctas"><a class="btn ghost" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20minha%20cozinha." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Orçar minha cozinha</a></div>
+      </div></div>
+    </div>
+    <div class="chap" data-i="2" id="banheiro">
+      <div class="wrap"><div class="card">
+        <p class="num">Banheiros</p>
+        <h2>O banheiro também merece projeto.</h2>
+        <p class="lead">Espelho com luz embutida, nichos iluminados e gabinete ripado sob a bancada esculpida.</p>
+        <ul class="specs"><li><span>Destaque</span>Gabinete ripado e LED</li><li><span>Metais</span>Dourado escovado</li></ul>
+        <div class="ctas"><a class="btn ghost" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20meu%20banheiro." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Orçar meu banheiro</a></div>
+      </div></div>
+    </div>
+    <div class="chap" data-i="3" id="dormitorio">
+      <div class="wrap"><div class="card">
+        <p class="num">Dormitórios</p>
+        <h2>O descanso também é projeto.</h2>
+        <p class="lead">Cabeceira estofada com luz indireta, painel ripado do piso ao teto e criados suspensos. O closet de vidro fica a poucos passos da cama.</p>
+        <ul class="specs"><li><span>Destaque</span>Painel ripado e LED</li><li><span>Integração</span>Closet com portas de vidro</li></ul>
+        <div class="ctas"><a class="btn ghost" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20meu%20dormit%C3%B3rio." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Orçar meu dormitório</a></div>
+      </div></div>
+    </div>
+    <div class="chap" data-i="4" id="salas">
+      <div class="wrap"><div class="card">
+        <p class="num">Salas</p>
+        <h2>Salas feitas para receber.</h2>
+        <p class="lead">Painel de TV em pedra, rack suspenso com luz embutida e estante iluminada ao lado do ripado. Estar e jantar integrados.</p>
+        <ul class="specs"><li><span>Destaque</span>Rack suspenso com LED</li><li><span>Painel</span>Pedra e ripado</li></ul>
+        <div class="ctas"><a class="btn ghost" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20minha%20sala." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Orçar minha sala</a></div>
+      </div></div>
+    </div>
+    <div class="chap" data-i="5" id="closet">
+      <div class="wrap"><div class="card">
+        <p class="num">Closets</p>
+        <h2>A próxima casa pode ser a sua.</h2>
+        <p class="lead">Projeto com arquiteto, fabricação sob medida e montagem no prazo. Você aprova cada detalhe antes da primeira peça ser cortada.</p>
+        <div class="ctas"><a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Solicitar orçamento pelo WhatsApp</a></div>
+      </div></div>
+    </div>
+  </div>
+</div>
+
+<section class="quick" aria-label="Atendimento pelo WhatsApp">
+  <div class="wrap quick-in">
+    <p><b>Atendimento direto com a loja.</b> Envie fotos ou medidas do seu ambiente e receba um retorno da equipe Atualle.</p>
+    <a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Conversar no WhatsApp</a>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div>
+  <span>Cozinhas</span><span>Closets</span><span>Dormitórios</span><span>Home office</span><span>Salas</span><span>Banheiros</span><span>Quartos infantis</span><span>Área de serviço</span>
+  <span>Cozinhas</span><span>Closets</span><span>Dormitórios</span><span>Home office</span><span>Salas</span><span>Banheiros</span><span>Quartos infantis</span><span>Área de serviço</span>
+</div></div>
+
+<section class="about" id="sobre" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-txt rv">
+        <p class="eyebrow">Sobre a Atualle</p>
+        <h2>Quase três décadas transformando casas em lares.</h2>
+        <p>A Atualle by Boavista une o atendimento próximo de uma loja do ABC com a estrutura de uma das maiores fábricas de planejados da América Latina. O resultado é um projeto sob medida, entregue no prazo combinado.</p>
+      </div>
+      <figure class="about-fig px-reveal" id="aboutFig">
+        <div class="ring-in"><img src="web/sobre-atualle.webp" srcset="web/sobre-atualle-800.webp 800w, web/sobre-atualle.webp 915w" sizes="(max-width:820px) 92vw, 46vw" width="915" height="1280" loading="lazy" decoding="async" style="object-position:50% 40%" alt="Responsável pela Atualle by Boavista no showroom, diante de uma cozinha planejada em tons claros"></div>
+      </figure>
+    </div>
+    <div class="nums rv">
+      <div><b>28</b><span>anos de atuação no mercado de planejados</span></div>
+      <div><b>10<small>anos</small></b><span>de garantia nos móveis Atualle</span></div>
+      <div><b>2<small>bancos</small></b><span>para financiar: Losango e Santander</span></div>
+      <div><b>1<small>app</small></b><span>exclusivo para acompanhar o pós-venda</span></div>
+    </div>
+  </div>
+  <div class="cine-wrap" id="cineWrap">
+    <figure class="cine" id="cine">
+      <img src="web/ia-quarto2.webp" srcset="web/ia-quarto2-800.webp 800w, web/ia-quarto2-1400.webp 1400w, web/ia-quarto2.webp 1672w" sizes="100vw" width="1672" height="941" loading="lazy" decoding="async" alt="Dormitório com marcenaria do piso ao teto, cabeceira com LED, pendentes dourados e roupeiro com portas de vidro">
+      <figcaption id="cineCap"><span>Ambiente ilustrativo</span><b>Cada peça nasce para um único endereço.</b></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="details" id="detalhes">
+  <div class="wrap">
+    <div class="head rv">
+      <h2>Detalhes que fazem a diferença.</h2>
+      <p>Role devagar: cada imagem começa no detalhe e se abre até mostrar o ambiente inteiro.</p>
+    </div>
+    <div class="det-grid">
+      <figure class="det rv">
+        <div class="det-img"><div class="det-in"><img src="web/det-penteadeira.webp" srcset="web/det-penteadeira-800.webp 800w, web/det-penteadeira.webp 1440w" sizes="(max-width:760px) 92vw, 46vw" width="1440" height="1440" loading="lazy" decoding="async" style="transform-origin:26% 52%;object-position:26% 52%" alt="Detalhe: penteadeira com espelho iluminado"></div></div>
+        <figcaption><b>Penteadeira com espelho iluminado</b><span>Espelho com LED, tampo em pedra e gaveteiro rosé ao lado do painel ripado.</span></figcaption>
+      </figure>
+      <figure class="det rv">
+        <div class="det-img"><div class="det-in"><img src="web/det-portas.webp" srcset="web/det-portas-800.webp 800w, web/det-portas.webp 1440w" sizes="(max-width:760px) 92vw, 46vw" width="1440" height="1440" loading="lazy" decoding="async" style="transform-origin:72% 45%;object-position:72% 45%" alt="Detalhe: portas com tela e madeira"></div></div>
+        <figcaption><b>Portas com tela e madeira</b><span>Portas em madeira com tela, puxadores longos dourados e nicho curvo junto à janela.</span></figcaption>
+      </figure>
+      <figure class="det rv">
+        <div class="det-img"><div class="det-in"><img src="web/det-bancada.webp" srcset="web/det-bancada-800.webp 800w, web/det-bancada.webp 1440w" sizes="(max-width:760px) 92vw, 46vw" width="1440" height="1440" loading="lazy" decoding="async" style="transform-origin:46% 46%;object-position:46% 46%" alt="Detalhe: bancada suspensa com espelho"></div></div>
+        <figcaption><b>Bancada suspensa com espelho</b><span>Bancada em madeira com cantos arredondados, espelho com luz e prateleira com LED.</span></figcaption>
+      </figure>
+      <figure class="det rv">
+        <div class="det-img"><div class="det-in"><img src="web/ia-puxador.webp" srcset="web/ia-puxador-800.webp 800w, web/ia-puxador.webp 1122w" sizes="(max-width:760px) 92vw, 46vw" width="1122" height="1402" loading="lazy" decoding="async" style="transform-origin:62% 48%;object-position:62% 48%" alt="Detalhe: puxador linear em metal escovado e frentes com LED embutido"></div></div>
+        <figcaption><b>Puxador linear</b><span>Puxador em metal escovado e frentes com luz embutida na junta das gavetas.</span><small>Ambiente ilustrativo</small></figcaption>
+      </figure>
+      <figure class="det rv">
+        <div class="det-img"><div class="det-in"><img src="web/det-estante.webp" srcset="web/det-estante-800.webp 800w, web/det-estante.webp 1440w" sizes="(max-width:760px) 92vw, 46vw" width="1440" height="1800" loading="lazy" decoding="async" style="transform-origin:64% 30%;object-position:64% 30%" alt="Detalhe: estante e moldura em madeira"></div></div>
+        <figcaption><b>Estante e moldura em madeira</b><span>Estante de nichos e moldura em madeira com fita de LED embutida no forro.</span></figcaption>
+      </figure>
+      <figure class="det rv">
+        <div class="det-img"><div class="det-in"><img src="web/det-organica.webp" srcset="web/det-organica-800.webp 800w, web/det-organica.webp 1270w" sizes="(max-width:760px) 92vw, 46vw" width="1270" height="1460" loading="lazy" decoding="async" style="transform-origin:62% 40%;object-position:62% 40%" alt="Detalhe: estante orgânica"></div></div>
+        <figcaption><b>Estante orgânica</b><span>Estante do piso ao teto com curva no canto, nichos iluminados e frentes ripadas.</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="processo">
+  <div class="wrap">
+    <div class="ps-head rv">
+      <div><p class="eyebrow">Como funciona</p><h2>Do primeiro traço à chave na mão.</h2></div>
+      <p class="pnote">Seis etapas claras, com prazo combinado em contrato. Toque em cada etapa para ver o que acontece.</p>
+    </div>
+    <div class="ps" id="ps">
+      <div class="ps-track" role="tablist" aria-label="Etapas do projeto">
+        <div class="ps-line" aria-hidden="true"><i id="psFill"></i></div>
+        <button class="ps-tab on" id="pst0" type="button" role="tab" aria-selected="true" aria-controls="psp0" tabindex="0"><span class="ps-dot">01</span><span class="ps-lbl">Medição</span><i class="ps-timer" aria-hidden="true"></i></button>
+        <button class="ps-tab" id="pst1" type="button" role="tab" aria-selected="false" aria-controls="psp1" tabindex="-1"><span class="ps-dot">02</span><span class="ps-lbl">Projeto 3D</span><i class="ps-timer" aria-hidden="true"></i></button>
+        <button class="ps-tab" id="pst2" type="button" role="tab" aria-selected="false" aria-controls="psp2" tabindex="-1"><span class="ps-dot">03</span><span class="ps-lbl">Aprovação</span><i class="ps-timer" aria-hidden="true"></i></button>
+        <button class="ps-tab" id="pst3" type="button" role="tab" aria-selected="false" aria-controls="psp3" tabindex="-1"><span class="ps-dot">04</span><span class="ps-lbl">Fabricação</span><i class="ps-timer" aria-hidden="true"></i></button>
+        <button class="ps-tab" id="pst4" type="button" role="tab" aria-selected="false" aria-controls="psp4" tabindex="-1"><span class="ps-dot">05</span><span class="ps-lbl">Montagem</span><i class="ps-timer" aria-hidden="true"></i></button>
+        <button class="ps-tab" id="pst5" type="button" role="tab" aria-selected="false" aria-controls="psp5" tabindex="-1"><span class="ps-dot">06</span><span class="ps-lbl">Pós-venda</span><i class="ps-timer" aria-hidden="true"></i></button>
+      </div>
+      <div class="ps-stage">
+        <div class="ps-panel on" id="psp0" role="tabpanel" aria-labelledby="pst0">
+          <span class="ps-num" aria-hidden="true">01</span>
+          <div class="ps-body"><p class="ps-of">Etapa 1 de 6</p><h3>Conversa e medição</h3><p>Entendemos sua rotina e medimos cada parede no local, sem custo.</p></div>
+        </div>
+        <div class="ps-panel" id="psp1" role="tabpanel" aria-labelledby="pst1" hidden>
+          <span class="ps-num" aria-hidden="true">02</span>
+          <div class="ps-body"><p class="ps-of">Etapa 2 de 6</p><h3>Projeto 3D com arquiteto</h3><p>Você vê o ambiente pronto, ajusta divisões internas e escolhe acabamentos.</p></div>
+        </div>
+        <div class="ps-panel" id="psp2" role="tabpanel" aria-labelledby="pst2" hidden>
+          <span class="ps-num" aria-hidden="true">03</span>
+          <div class="ps-body"><p class="ps-of">Etapa 3 de 6</p><h3>Aprovação e pagamento</h3><p>Condições facilitadas com financiamento pela Losango ou pelo Santander.</p></div>
+        </div>
+        <div class="ps-panel" id="psp3" role="tabpanel" aria-labelledby="pst3" hidden>
+          <span class="ps-num" aria-hidden="true">04</span>
+          <div class="ps-body"><p class="ps-of">Etapa 4 de 6</p><h3>Fabricação</h3><p>Peças produzidas sob medida, em uma das maiores fábricas de planejados da América Latina.</p></div>
+        </div>
+        <div class="ps-panel" id="psp4" role="tabpanel" aria-labelledby="pst4" hidden>
+          <span class="ps-num" aria-hidden="true">05</span>
+          <div class="ps-body"><p class="ps-of">Etapa 5 de 6</p><h3>Montagem</h3><p>Equipe especializada monta e entrega o ambiente pronto, no prazo combinado.</p></div>
+        </div>
+        <div class="ps-panel" id="psp5" role="tabpanel" aria-labelledby="pst5" hidden>
+          <span class="ps-num" aria-hidden="true">06</span>
+          <div class="ps-body"><p class="ps-of">Etapa 6 de 6</p><h3>Pós-venda no app</h3><p>Acompanhe cada etapa e abra chamados pelo aplicativo exclusivo. Garantia de 10 anos.</p></div>
+        </div>
+        <div class="ps-nav">
+          <button type="button" class="ps-arrow" id="psPrev" aria-label="Etapa anterior">←</button>
+          <button type="button" class="ps-arrow" id="psNext" aria-label="Próxima etapa">→</button>
+          <a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20a%20conversa%20e%20a%20medi%C3%A7%C3%A3o%20do%20meu%20ambiente." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Começar pela etapa 1</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="wrap rv">
+    <div>
+      <blockquote>Mais que paredes: um lar é feito de memórias e das pessoas que dividem o espaço com você.</blockquote>
+      <p>Por isso cada projeto Atualle começa pela sua rotina, e não pelo catálogo.</p>
+    </div>
+    <svg class="seal" viewBox="0 0 240 240" aria-hidden="true">
+      <defs><path id="ring" d="M120,120 m-92,0 a92,92 0 1,1 184,0 a92,92 0 1,1 -184,0"/></defs>
+      <g class="ring"><text fill="currentColor" style="font:600 13px var(--sans);letter-spacing:4.1px"><textPath href="#ring">ATUALLE · PLANEJADOS · ATUALLE · PLANEJADOS ·</textPath></text></g>
+      <circle cx="120" cy="120" r="70" fill="none" stroke="currentColor" stroke-width=".8" opacity=".5"/>
+      <text x="120" y="142" text-anchor="middle" fill="currentColor" style="font:400 66px var(--display)">A.</text>
+    </svg>
+  </div>
+</section>
+
+<section class="work" id="projetos">
+  <div class="wrap">
+    <div class="head rv">
+      <h2>Do projeto à vida real.</h2>
+      <p>Cozinhas, dormitórios, lavabos e salas assinados pela Atualle. Continue rolando para percorrer cada projeto.</p>
+    </div>
+  </div>
+  <div class="hwrap" id="hwrap">
+    <div class="hsticky">
+      <div class="htrack" id="htrack">
+        <figure class="shot"><div class="ph"><img src="web/gal-lavabo-verde.webp" srcset="web/gal-lavabo-verde-800.webp 800w, web/gal-lavabo-verde.webp 1440w" sizes="(max-width:760px) 82vw, 34vw" width="1440" height="1800" loading="lazy" decoding="async" alt="Lavabo com jardim vertical, painel em madeira com fita de LED e bancada em pedra"></div><figcaption><span>01</span><b>Lavabo com jardim vertical</b>Painel em madeira, fita de luz e bancada em pedra</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-adega.webp" srcset="web/gal-adega.webp 718w" sizes="(max-width:760px) 82vw, 34vw" width="718" height="1080" loading="lazy" decoding="async" alt="Adega planejada com portas de vidro, prateleiras iluminadas para vinhos e espaço para rolhas"></div><figcaption><span>02</span><b>Adega e bar</b>Integrados ao ambiente de convivência</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-cozinha-ilha.webp" srcset="web/gal-cozinha-ilha-800.webp 800w, web/gal-cozinha-ilha.webp 1080w" sizes="(max-width:760px) 82vw, 34vw" width="1080" height="920" loading="lazy" decoding="async" alt="Cozinha com ilha, bancada de madeira para refeições, pendente em espiral e portas de correr vazadas"></div><figcaption><span>03</span><b>Cozinha com ilha</b>Bancada para refeições e portas de correr vazadas</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-cozinha-ripado.webp" srcset="web/gal-cozinha-ripado-800.webp 800w, web/gal-cozinha-ripado.webp 1080w" sizes="(max-width:760px) 82vw, 34vw" width="1080" height="925" loading="lazy" decoding="async" alt="Cozinha com ripado em madeira do piso ao teto, cristaleira iluminada e torre de fornos"></div><figcaption><span>04</span><b>Cozinha com ripado</b>Ripado do piso ao teto e cristaleira iluminada</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-dormitorio.webp" srcset="web/gal-dormitorio-800.webp 800w, web/gal-dormitorio.webp 1080w" sizes="(max-width:760px) 82vw, 34vw" width="1080" height="925" loading="lazy" decoding="async" alt="Dormitório com armário em ponte sobre a cama, cabeceira ripada com LED e roupeiro com espelho"></div><figcaption><span>05</span><b>Dormitório</b>Armário em ponte sobre a cama e cabeceira ripada</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-infantil.webp" srcset="web/gal-infantil-800.webp 800w, web/gal-infantil.webp 1080w" sizes="(max-width:760px) 82vw, 34vw" width="1080" height="925" loading="lazy" decoding="async" alt="Quarto infantil com roupeiro claro, puxadores longos em madeira e estante com nichos iluminados"></div><figcaption><span>06</span><b>Quarto infantil</b>Roupeiro com puxadores em madeira e nichos iluminados</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-painel-giratorio.webp" srcset="web/gal-painel-giratorio-800.webp 800w, web/gal-painel-giratorio.webp 1440w" sizes="(max-width:760px) 82vw, 34vw" width="1440" height="1420" loading="lazy" decoding="async" alt="Painel de TV giratório em madeira com ripado ao lado"></div><figcaption><span>07</span><b>Painel giratório</b>Sob medida para dividir ambientes</figcaption></figure>
+        <figure class="shot"><div class="ph"><img src="web/gal-lavabo.webp" srcset="web/gal-lavabo-800.webp 800w, web/gal-lavabo.webp 1080w" sizes="(max-width:760px) 82vw, 34vw" width="1080" height="925" loading="lazy" decoding="async" alt="Lavabo com bancada em madeira natural, cuba de apoio e espelho redondo"></div><figcaption><span>08</span><b>Lavabo</b>Bancada em madeira natural e cuba de apoio</figcaption></figure>
+        <div class="hend"><p class="eyebrow">Seu ambiente pode ser o próximo</p><h3>Vamos projetar juntos?</h3><a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Solicitar orçamento pelo WhatsApp</a></div>
+      </div>
+      <div class="wrap hmeta"><span class="eyebrow">Projetos Atualle</span><div class="hbar"><i id="hfill"></i></div><span class="hcount"><b id="hnum">01</b> / 08</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="team" id="equipe">
+  <div class="wrap team-grid solo">
+    <div class="team-txt rv">
+      <p class="eyebrow">Quem cuida do seu projeto</p>
+      <h2>Atendimento de perto, do primeiro traço à entrega.</h2>
+      <p>Na Atualle, cada projeto é acompanhado por quem conhece a loja por dentro. Você conversa com a equipe no showroom de São Bernardo, aprova cada detalhe e sabe com quem falar em cada etapa.</p>
+      <p class="team-sign" data-pending="nome">Atualle by Boavista · Showroom Rudge Ramos</p>
+      <a class="btn" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar%20com%20a%20equipe%20sobre%20um%20projeto%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Falar com a equipe pelo WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="contact-bg" aria-hidden="true"><img id="contactImg" src="web/ia-abertura-1400.webp" srcset="web/ia-abertura-800.webp 800w, web/ia-abertura-1400.webp 1400w, web/ia-abertura.webp 1672w" sizes="100vw" loading="lazy" decoding="async" alt=""></div>
+  <div class="wrap grid">
+    <div class="rv">
+      <p class="eyebrow">Orçamento sem compromisso</p>
+      <h2 style="margin-top:20px">Vamos desenhar o <em>seu</em> espaço?</h2>
+      <div class="info">
+        <div><span>Showroom</span><p>Av. Dr. Rudge Ramos, 283 · Rudge Ramos<br>São Bernardo do Campo – SP · 09637-000<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Dr.+Rudge+Ramos,+283,+S%C3%A3o+Bernardo+do+Campo+-+SP" target="_blank" rel="noopener">Ver no mapa</a></p></div>
+        <div><span>WhatsApp</span><p><a href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener">(11) 96420-7315</a></p></div>
+        <div><span>Telefone</span><p><a href="tel:+551125646020">(11) 2564-6020</a></p></div>
+        <div><span>E-mail</span><p><a href="mailto:gerencia@atualleplanejados.com.br">gerencia@atualleplanejados.com.br</a></p></div>
+      </div>
+    </div>
+    <form id="lead" class="rv" novalidate>
+      <p class="ftitle">Monte sua mensagem e envie direto para a loja pelo WhatsApp.</p>
+      <label for="nome">Seu nome<input id="nome" name="nome" autocomplete="name" placeholder="Maria Silva"></label>
+      <div class="row2">
+        <label for="cidade">Cidade<select id="cidade" name="cidade"><option>Santo André</option><option>São Bernardo do Campo</option><option>São Caetano do Sul</option><option>Diadema</option><option>Mauá</option><option>Outra</option></select></label>
+        <label for="amb">Ambiente<select id="amb" name="amb"><option>Cozinha</option><option>Closet</option><option>Dormitório</option><option>Home office</option><option>Sala</option><option>Banheiro</option><option>Casa completa</option></select></label>
+      </div>
+      <label for="obs">Detalhes (opcional)<input id="obs" name="obs" placeholder="Ex.: apartamento novo, entrega em março"></label>
+      <a class="btn dark" id="sendWa" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>Enviar pelo WhatsApp</a>
+      <div id="ok" class="ok" hidden></div>
+      <p class="lgpd">Ao enviar, você abre uma conversa no WhatsApp com a Atualle. Seus dados são usados apenas para responder ao seu pedido.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img class="flogo" src="brand/logo-light.png" alt="Atualle Planejados by Boavista" loading="lazy">
+    <div>Móveis planejados em Santo André, São Bernardo e todo o ABC. Projeto, fabricação, montagem e pós-venda.</div>
+    <div><b>Showroom</b>Av. Dr. Rudge Ramos, 283<br>São Bernardo do Campo – SP<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Dr.+Rudge+Ramos,+283,+S%C3%A3o+Bernardo+do+Campo+-+SP" target="_blank" rel="noopener">Ver no mapa</a></div>
+    <div><b>Contato</b><a href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener">WhatsApp (11) 96420-7315</a><br><a href="tel:+551125646020">(11) 2564-6020</a><br><a href="https://www.instagram.com/atuallebyboavista/" target="_blank" rel="noopener">Instagram @atuallebyboavista</a></div>
+    <p class="demo-note">Prévia do novo site · imagens marcadas como “ambiente ilustrativo” são referências visuais; as demais são projetos reais do perfil @atuallebyboavista · © 2026 Atualle by Boavista</p>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/5511964207315?text=Ol%C3%A1%2C%20Atualle%21%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20m%C3%B3veis%20planejados." target="_blank" rel="noopener" aria-label="Conversar com a Atualle no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4Z"/></svg>
+</a>
+
+<script>
+(function(){
+"use strict";
+var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+var ibar=document.getElementById('ibar'), ipct=document.getElementById('ipct');
+function setLoad(p){ibar.style.transform='scaleX('+p+')';}
+var t0=performance.now(),introDone=false,prog=0,cotas=document.getElementById('cotas');
+function finishIntro(){
+  if(introDone)return;introDone=true;
+  var wait=reduce?0:Math.max(0,1700-(performance.now()-t0));
+  setTimeout(function(){
+    setLoad(1);
+    document.getElementById('intro').classList.add('done');
+    setTimeout(function(){document.getElementById('bars').classList.add('open')},reduce?0:350);
+    setTimeout(function(){
+      document.body.classList.add('ready');
+      if(!reduce&&cotas&&prog<.2){cotas.classList.add('draw');setTimeout(function(){cotas.classList.add('gone')},4200)}
+    },reduce?0:650);
+  },wait);
+}
+setTimeout(finishIntro,4000);
+
+/* film grain */
+(function(){try{var c=document.createElement('canvas');c.width=c.height=180;var g=c.getContext('2d'),d=g.createImageData(180,180);for(var i=0;i<d.data.length;i+=4){var v=Math.random()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}g.putImageData(d,0,0);document.getElementById('grain').style.backgroundImage='url('+c.toDataURL()+')'}catch(e){}})();
+
+var nav=document.getElementById('nav'),grainEl=document.getElementById('grain');
+var film=document.querySelector('.film');
+var chaps=[].slice.call(document.querySelectorAll('.chap'));
+var cards=[].slice.call(document.querySelectorAll('.chap .card'));
+var scenes=[].slice.call(document.querySelectorAll('.scene'));
+var N=scenes.length;
+var cnum=document.getElementById('cnum'),cname=document.getElementById('cname'),scap=document.getElementById('scap');
+var edge=document.getElementById('edge'),stage=document.getElementById('stage'),reelBars=[].slice.call(document.querySelectorAll('.reel i'));
+var names=['Início','Cozinhas','Banheiros','Dormitórios','Salas','Closets'];
+
+/* preload: intro bar follows the photos */
+var loaded=0;
+scenes.forEach(function(sc){
+  var im=sc.querySelector('img');
+  sc._from=sc.dataset.from.split(',').map(Number);
+  sc._to=sc.dataset.to.split(',').map(Number);
+  sc._img=im;
+  sc._fg=sc.querySelector('img.fg');
+  function done(){loaded++;setLoad(loaded/N*.95);if(loaded>=2)finishIntro();}
+  if(im.complete&&im.naturalWidth)done();else{im.addEventListener('load',done);im.addEventListener('error',done);}
+});
+
+function clamp(v){return v<0?0:v>1?1:v}
+function ease(x){return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2}
+function smooth(x){return x*x*(3-2*x)}
+
+var target=0,mx=0,my=0,smx=0,smy=0,visible=true,last=-1;
+addEventListener('pointermove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+if('IntersectionObserver' in window){new IntersectionObserver(function(es){visible=es[0].isIntersecting}).observe(document.getElementById('stage'))}
+
+function readScroll(){
+  var r=film.getBoundingClientRect(),vh=innerHeight,total=r.height-vh;
+  var p=clamp(-r.top/Math.max(1,total));
+  target=p*(N-1);
+  var idx=Math.round(target);
+  if(idx!==last){
+    last=idx;
+    cnum.textContent=('0'+(idx+1)).slice(-2);
+    cname.textContent=names[idx];
+    scap.textContent=scenes[idx].dataset.name;
+    document.getElementById('skind').textContent=scenes[idx].dataset.kind||'Projeto real Atualle';
+    chaps.forEach(function(c,i){c.classList.toggle('dim',i!==idx)});
+    stage.classList.toggle('is-portrait',scenes[idx].classList.contains('portrait'));
+  }
+  nav.classList.toggle('solid',r.bottom<90);
+  grainEl.classList.toggle('off',r.bottom<vh*.5);
+}
+addEventListener('scroll',function(){readScroll();nudge();},{passive:true});
+addEventListener('resize',readScroll);
+
+var lastTick=0;
+function render(time){
+  requestAnimationFrame(render);
+  lastTick=performance.now();
+  if(!visible)return;
+  draw(time);
+}
+/* if frames are throttled (background tab, low-power mode), still draw on scroll */
+function nudge(){ if(performance.now()-lastTick>120){prog=target;draw(performance.now());} }
+function draw(time){
+  prog+=(target-prog)*(reduce?1:.075);
+  smx+=(mx-smx)*.05;smy+=(my-smy)*.05;
+  var tsec=time/1000;
+  /* sliding-door transitions: each new scene slides in from the right */
+  var rev=scenes.map(function(sc,i){
+    if(i===0)return 1;
+    var r=clamp((prog-(i-1)-.28)/.62);
+    return reduce?(r>=.5?1:0):ease(r);
+  });
+  var edgeX=0,edgeO=0;
+  scenes.forEach(function(sc,i){
+    var r=rev[i],next=i+1<N?rev[i+1]:0;
+    var vis=r>.001&&next<.999;
+    sc.style.visibility=vis?'visible':'hidden';
+    sc.style.opacity=1;
+    if(!vis)return;
+    sc.style.clipPath=(i===0||r>=.999)?'none':'inset(0 0 0 '+((1-r)*100).toFixed(2)+'%)';
+    if(r>.001&&r<.999){edgeX=(1-r)*100;edgeO=Math.sin(Math.PI*r)}
+    sc.style.transform=(reduce||next<=0)?'none':'scale('+(1-.045*next).toFixed(4)+')';
+    var d=prog-i;
+    var t=ease(clamp((d+.6)/1.2));
+    if(i===0)t=ease(clamp(d/.6));
+    var a=sc._from,b=sc._to;
+    var x=a[0]+(b[0]-a[0])*t,y=a[1]+(b[1]-a[1])*t,s=a[2]+(b[2]-a[2])*t;
+    if(reduce){x=(a[0]+b[0])/2;y=(a[1]+b[1])/2;s=1;}
+    else s+=Math.sin(tsec*.25+i)*.006;
+    sc._img.style.objectPosition=x.toFixed(2)+'% '+y.toFixed(2)+'%';
+    if(sc._fg)sc._fg.style.transform=reduce?'none':'translate3d('+(-smx*10).toFixed(1)+'px,'+((1-t)*40-smy*8).toFixed(1)+'px,0) scale('+(1+(s-1)*.25).toFixed(4)+')';
+    sc._img.style.transform=reduce?'none':'translate3d('+(-smx*18).toFixed(1)+'px,'+(-smy*12).toFixed(1)+'px,0) scale('+s.toFixed(4)+')';
+  });
+  edge.style.left=edgeX.toFixed(2)+'%';
+  edge.style.opacity=edgeO.toFixed(3);
+  if(cotas&&prog>.18)cotas.classList.add('gone');
+  /* reel progress */
+  reelBars.forEach(function(el,i){el.style.setProperty('--k',clamp(prog-i+.5).toFixed(3))});
+  cards.forEach(function(c){var t=c.getBoundingClientRect().top;c.style.setProperty('--fade',clamp((t-40)/70).toFixed(3))});
+}
+readScroll();
+draw(0);
+requestAnimationFrame(render);
+
+/* reveal + count-up */
+var rvs=document.querySelectorAll('.rv');
+function countUp(root){
+  [].forEach.call(root.querySelectorAll('[data-count]'),function(el){
+    var end=+el.dataset.count;if(reduce||end<3){el.textContent=end;return}
+    var s=performance.now();(function tick(n){var k=Math.min(1,(n-s)/1400);el.textContent=Math.round(end*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(tick)})(s);
+  });
+}
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');countUp(e.target);io.unobserve(e.target)}})},{threshold:.15});
+  [].forEach.call(rvs,function(el){io.observe(el)});
+}else{[].forEach.call(rvs,function(el){el.classList.add('in')})}
+
+/* lead form: builds the WhatsApp message */
+var WA='5511964207315',send=document.getElementById('sendWa'),ok=document.getElementById('ok');
+var fNome=document.getElementById('nome'),fCid=document.getElementById('cidade'),fAmb=document.getElementById('amb'),fObs=document.getElementById('obs');
+function buildMsg(){
+  var n=fNome.value.trim();
+  var m='Olá, Atualle! '+(n?'Meu nome é '+n+'. ':'')+'Vim pelo site e gostaria de um orçamento de '+fAmb.value.toLowerCase()+' planejado(a), em '+fCid.value+'.';
+  if(fObs.value.trim())m+=' Detalhes: '+fObs.value.trim();
+  send.href='https://wa.me/'+WA+'?text='+encodeURIComponent(m);
+}
+[fNome,fCid,fAmb,fObs].forEach(function(el){el.addEventListener('input',buildMsg);el.addEventListener('change',buildMsg)});
+buildMsg();
+send.addEventListener('click',function(e){
+  if(!fNome.value.trim()){e.preventDefault();fNome.classList.add('err');fNome.focus();ok.hidden=false;ok.textContent='Digite seu nome para a equipe saber com quem está falando.';return}
+  fNome.classList.remove('err');ok.hidden=false;ok.textContent='Abrindo o WhatsApp com a sua mensagem pronta. Se não abrir, chame no (11) 96420-7315.';
+});
+document.getElementById('lead').addEventListener('submit',function(e){e.preventDefault();send.click()});
+
+/* mobile menu */
+var burger=document.getElementById('burger'),mm=document.getElementById('mmenu');
+function setMenu(open){mm.hidden=!open;burger.setAttribute('aria-expanded',open);burger.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');nav.classList.toggle('menu-open',open);document.documentElement.style.overflow=open?'hidden':''}
+burger.addEventListener('click',function(){setMenu(mm.hidden)});
+[].forEach.call(mm.querySelectorAll('a'),function(a){a.addEventListener('click',function(){setMenu(false)})});
+addEventListener('keydown',function(e){if(e.key==='Escape'&&!mm.hidden){setMenu(false);burger.focus()}});
+addEventListener('resize',function(){if(innerWidth>960&&!mm.hidden)setMenu(false)});
+})();
+</script>
+<script>
+(function(){
+"use strict";
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function clamp(v){return v<0?0:v>1?1:v}
+function ease(x){return 1-Math.pow(1-x,3)}
+var vh=innerHeight;
+var cineWrap=document.getElementById('cineWrap'),cine=document.getElementById('cine');
+
+var hwrap=document.getElementById('hwrap'),htrack=document.getElementById('htrack'),hfill=document.getElementById('hfill'),hnum=document.getElementById('hnum');
+var shots=[].slice.call(htrack.querySelectorAll('.shot'));
+var desk=true,travel=0,lastStep=-1,lastShot=-1;
+var aboutFig=document.getElementById('aboutFig'),aboutImg=aboutFig.querySelector('img');
+var dets=[].slice.call(document.querySelectorAll('.det-img'));
+
+var contact=document.getElementById('contato'),contactImg=document.getElementById('contactImg');
+var progbar=document.getElementById('progbar');
+var navLinks=[].slice.call(document.querySelectorAll('.nav ul a, .mmenu ul a'));
+var secIds=['cozinha','banheiro','dormitorio','projetos','processo','equipe','contato'];
+var lastSec='';
+function layout(){
+  vh=innerHeight;desk=innerWidth>760;
+  if(desk){travel=Math.max(0,htrack.scrollWidth-innerWidth);hwrap.style.height=(travel+vh)+'px';}
+  else{travel=0;hwrap.style.height='';htrack.style.transform='';}
+}
+addEventListener('resize',layout);addEventListener('load',layout);layout();
+function frame(){
+  var r=cineWrap.getBoundingClientRect(),p=clamp(-r.top/Math.max(1,r.height-vh)*1.35);
+  if(reduce)p=1;
+  var e=ease(p);
+  cine.style.setProperty('--ci',(16*(1-e)).toFixed(2)+'%');
+  cine.style.setProperty('--cx',((desk?22:6)*(1-e)).toFixed(2)+'%');
+  cine.style.setProperty('--cr',(20*(1-e)).toFixed(1)+'px');
+  cine.style.setProperty('--cs',(1.2-.2*e).toFixed(4));
+  cine.style.setProperty('--co',clamp((p-.65)/.3).toFixed(3));
+
+
+  /* about photo: crop opens + gentle parallax */
+  var ar=aboutFig.getBoundingClientRect();
+  if(ar.bottom>0&&ar.top<vh){
+    var ap=clamp((vh-ar.top)/(vh*.85));
+    aboutFig.style.setProperty('--rv',reduce?'0%':(9*(1-ease(ap))).toFixed(2)+'%');
+    if(!reduce){var pp=clamp((vh-ar.top)/(vh+ar.height));aboutImg.style.setProperty('--py',((pp-.5)*-60).toFixed(1)+'px');aboutImg.style.setProperty('--ps',(1.08-.08*ease(ap)).toFixed(4))}
+  }
+
+  /* details: close-up opens to the whole room as it crosses the screen */
+  dets.forEach(function(el){
+    var r=el.getBoundingClientRect();if(r.bottom<-50||r.top>vh+50)return;
+    var img=el.querySelector('img');
+    if(reduce){img.style.setProperty('--dz',1);return}
+    if(!desk){img.style.setProperty('--dz',1.3);return}
+    var q=clamp((vh-r.top)/(vh*.95));
+    img.style.setProperty('--dz',(1.8-.8*ease(q)).toFixed(4));
+  });
+  if(desk){
+    var hr=hwrap.getBoundingClientRect(),hp=clamp(-hr.top/Math.max(1,hr.height-vh));
+    htrack.style.transform='translate3d('+(-hp*travel).toFixed(1)+'px,0,0)';
+    hfill.style.setProperty('--hp',hp.toFixed(3));
+    var cur=0,cd=1e9;
+    shots.forEach(function(sh,i){
+      var b=sh.getBoundingClientRect(),c=b.left+b.width/2-innerWidth/2;
+      if(!reduce){
+        sh.querySelector('img').style.setProperty('--px',(-c*.06).toFixed(1)+'px');
+        var dist=clamp(Math.abs(c)/innerWidth*1.6);
+        sh.style.setProperty('--gs',(1-.08*dist).toFixed(4));
+        sh.style.setProperty('--ry',(Math.max(-1,Math.min(1,c/innerWidth*1.8))*-22).toFixed(2)+'deg');
+        sh.style.setProperty('--gy',(dist*18).toFixed(1)+'px');
+        sh.style.setProperty('--go',(1-.55*dist).toFixed(3));
+      }
+      if(Math.abs(c)<cd){cd=Math.abs(c);cur=i}
+    });
+    if(cur!==lastShot){lastShot=cur;hnum.textContent=('0'+(cur+1)).slice(-2)}
+  }
+
+  /* team photo: crop opens + slight parallax */
+  var tf=document.getElementById('teamFig');
+  if(tf){var tr=tf.getBoundingClientRect();if(tr.bottom>0&&tr.top<vh){var tq=clamp((vh-tr.top)/(vh*.8));tf.style.setProperty('--tr',reduce?'0%':(8*(1-ease(tq))).toFixed(2)+'%');if(!reduce)tf.firstElementChild.style.setProperty('--ty',((clamp((vh-tr.top)/(vh+tr.height))-.5)*-24).toFixed(1)+'px')}}
+  /* contact backdrop drift */
+  var cr=contact.getBoundingClientRect();
+  if(!reduce&&cr.bottom>0&&cr.top<vh){contactImg.style.setProperty('--cy',(((vh-cr.top)/(vh+cr.height)-.5)*-50).toFixed(1)+'px')}
+
+  /* page progress + active menu item */
+  var max=document.documentElement.scrollHeight-vh;
+  progbar.style.transform='scaleX('+clamp(scrollY/Math.max(1,max)).toFixed(4)+')';
+  var cur2='';
+  secIds.forEach(function(id){var el=document.getElementById(id);if(el&&el.getBoundingClientRect().top<vh*.45)cur2=id});
+  if(document.getElementById('detalhes').getBoundingClientRect().top<vh*.45&&cur2==='dormitorio')cur2='';
+  if(cur2!==lastSec){lastSec=cur2;navLinks.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur2)})}
+}
+var lastRun=0,pending=false;
+addEventListener('scroll',function(){if(!pending){pending=true;requestAnimationFrame(function(){pending=false;lastRun=performance.now();frame()})}if(performance.now()-lastRun>150)frame()},{passive:true});
+frame();
+})();
+
+/* process stepper */
+(function(){
+  var ps=document.getElementById('ps');if(!ps)return;
+  var tabs=[].slice.call(ps.querySelectorAll('.ps-tab')),panels=[].slice.call(ps.querySelectorAll('.ps-panel'));
+  var fill=document.getElementById('psFill'),prev=document.getElementById('psPrev'),next=document.getElementById('psNext');
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches,cur=0,timer=null,DUR=6000,inView=false,touched=false,hovering=false;
+  function show(i,focus){
+    i=(i+tabs.length)%tabs.length;cur=i;
+    tabs.forEach(function(t,k){var on=k===i;t.classList.toggle('on',on);t.classList.toggle('done',k<i);t.setAttribute('aria-selected',on);t.tabIndex=on?0:-1});
+    panels.forEach(function(p,k){var on=k===i;p.hidden=!on;p.classList.toggle('on',on)});
+    fill.parentNode.style.setProperty('--pf',(i/(tabs.length-1)).toFixed(3));fill.style.setProperty('--pf',(i/(tabs.length-1)).toFixed(3));
+    prev.disabled=i===0;next.disabled=i===tabs.length-1;
+    if(focus)tabs[i].focus();
+    var tr=tabs[i].parentNode;if(tr.scrollWidth>tr.clientWidth){tr.scrollTo({left:tabs[i].offsetLeft-tr.clientWidth/2+tabs[i].offsetWidth/2,behavior:reduce?'auto':'smooth'})}
+    restart();
+  }
+  function stop(){clearTimeout(timer);timer=null}
+  function restart(){
+    stop();
+    var run=!reduce&&!touched&&inView;
+    ps.classList.toggle('auto',run);
+    if(!run)return;
+    tabs[cur].querySelector('.ps-timer').replaceWith(tabs[cur].querySelector('.ps-timer').cloneNode(true));
+    if(!hovering)timer=setTimeout(function(){show(cur+1)},DUR);
+  }
+  function user(){touched=true;ps.classList.remove('auto');stop()}
+  tabs.forEach(function(t,k){
+    t.addEventListener('click',function(){user();show(k)});
+    t.addEventListener('keydown',function(e){
+      var map={ArrowRight:1,ArrowLeft:-1,Home:-99,End:99};if(!(e.key in map))return;e.preventDefault();user();
+      var n=e.key==='Home'?0:e.key==='End'?tabs.length-1:cur+map[e.key];show(Math.max(0,Math.min(tabs.length-1,n)),true);
+    });
+  });
+  prev.addEventListener('click',function(){user();show(cur-1)});
+  next.addEventListener('click',function(){user();show(cur+1)});
+  ps.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse'){hovering=true;ps.classList.add('paused');stop()}});
+  ps.addEventListener('pointerleave',function(e){if(e.pointerType==='mouse'){hovering=false;ps.classList.remove('paused');if(!touched&&inView&&!reduce)timer=setTimeout(function(){show(cur+1)},DUR/2)}});
+  if('IntersectionObserver' in window){new IntersectionObserver(function(es){inView=es[0].isIntersecting;if(inView)restart();else stop()},{threshold:.35}).observe(ps)}
+  show(0);
+})();
+
+/* gallery: 3D tilt + light that follows the mouse */
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches||!matchMedia('(pointer:fine)').matches)return;
+  [].forEach.call(document.querySelectorAll('.htrack .shot'),function(sh){
+    sh.addEventListener('pointermove',function(e){
+      var r=sh.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+      sh.classList.add('hov');
+      sh.style.setProperty('--hy',((x-.5)*14).toFixed(2)+'deg');
+      sh.style.setProperty('--hx',((.5-y)*10).toFixed(2)+'deg');
+      var ph=sh.querySelector('.ph');ph.style.setProperty('--mx',(x*100).toFixed(1)+'%');ph.style.setProperty('--my',(y*100).toFixed(1)+'%');
+    });
+    sh.addEventListener('pointerleave',function(){sh.classList.remove('hov');sh.style.setProperty('--hy','0deg');sh.style.setProperty('--hx','0deg')});
+  });
+})();
+</script>
+</body>
+</html>
